@@ -1,8 +1,11 @@
+{% assign footer_name = site.first_name %}
+{% if site.middle_name %}
+  {% assign footer_name = footer_name | append: ' ' | append: site.middle_name %}
+{% endif %}
+{% assign footer_name = footer_name | append: ' ' | append: site.last_name %}
+
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
+  &copy; {{ site.time | date: '%Y' }} {{ footer_name }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}

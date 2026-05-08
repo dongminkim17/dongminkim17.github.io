@@ -24,12 +24,14 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  background-color: var(--global-bg-color);
+  border-top: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 0.8rem;
 
   .container {
+    color: var(--global-text-color-light);
     text-align: center;
   }
 }

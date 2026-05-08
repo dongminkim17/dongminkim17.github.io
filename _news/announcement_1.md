@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-10-01 00:00:00-0400
+display_date: Oct. 2025
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Paper accepted at NeurIPS 2025.
