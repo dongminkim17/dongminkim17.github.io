@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Simple winding road">
+  <rect width="128" height="128" fill="#ffffff" />
+  <path
+    d="M34 120 C57 105 72 88 66 70 C61 55 36 48 24 38 C15 30 24 20 50 9"
+    fill="none"
+    stroke="#111"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M74 120 C98 105 112 88 106 70 C101 55 76 48 64 38 C55 30 64 20 94 9"
+    fill="none"
+    stroke="#111"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

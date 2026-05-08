@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from KAIST with a B.S. in Electrical Engineering, Summa Cum Laude.
+Graduated from KAIST with a B.S. in Electrical Engineering.

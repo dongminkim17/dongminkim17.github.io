@@ -9,6 +9,10 @@
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+
+  > .container {
+    max-width: v.$max-content-width;
+  }
 }
 
 .navbar .dropdown-menu,
@@ -175,6 +179,10 @@
 @media (min-width: 576px) {
   #light-toggle {
     transform: translateY(4px);
+  }
+
+  .navbar .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
   }
 }
 

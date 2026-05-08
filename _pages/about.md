@@ -3,12 +3,15 @@ layout: about
 title: about
 permalink: /
 subtitle:
+hide_header: true
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: |
+    <div class="profile-name">Dong Min Kim</div>
+    <div class="profile-role">MS Student @ KAIST</div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -26,7 +29,7 @@ latest_posts:
 
 I am a first-year MS student in the [Mobile Intelligence & Interaction Lab](https://miil.kaist.ac.kr/) at KAIST, advised by Professor [Sung-Ju Lee](https://sites.google.com/site/wewantsj/). I received my B.S. in Electrical Engineering from KAIST, graduating Summa Cum Laude. My current research interests lie in building reliable foundation models for time series and sensors.
 
-<div class="contact-links">
+<div class="intro-links">
   <a href="/assets/pdf/CV_2026_05.pdf"><i class="fa-solid fa-file-lines"></i> CV</a>
   <a href="mailto:dongmin.kim@kaist.ac.kr"><i class="fa-solid fa-envelope"></i> Email</a>
   <a href="https://www.linkedin.com/in/dongmin-kim17/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
