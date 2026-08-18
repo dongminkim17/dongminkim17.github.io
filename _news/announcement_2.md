@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Participating in NeurIPS 2025 @ San Diego :us:.
+Participating and presenting a poster in NeurIPS 2025 @ San Diego :us:.
