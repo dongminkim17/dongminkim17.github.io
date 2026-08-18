@@ -95,8 +95,11 @@ ninja.data = [{
           section: "News",},{id: "news-selected-as-a-recipient-of-the-kwon-yong-se-scholarship-kaist-ee",
           title: 'Selected as a recipient of the Kwon Yong-se Scholarship (KAIST EE).',
           description: "",
-          section: "News",},{id: "news-participating-in-neurips-2025-san-diego-us",
-          title: 'Participating in NeurIPS 2025 @ San Diego :us:.',
+          section: "News",},{id: "news-participating-and-presenting-a-poster-in-neurips-2025-san-diego-us",
+          title: 'Participating and presenting a poster in NeurIPS 2025 @ San Diego :us:.',
+          description: "",
+          section: "News",},{id: "news-participating-in-icml-2026-seoul-kr",
+          title: 'Participating in ICML 2026 @ Seoul :kr:.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -158,7 +161,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/CV_2026_05.pdf", "_blank");
+          window.open("/assets/pdf/CV_2026_08.pdf", "_blank");
         },
       },{
         id: 'social-email',
